@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Worlds | Explore History</title>
+
+    <link rel="stylesheet" href="./ancient.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#" class="logo">ANCIENT<span> WORLDS.</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#civilizations">Civilizations</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <a href="#civilizations" class="nav-btn">Explore History ↗</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <p class="eyebrow">✦ THE STORY OF HUMANITY ✦</p>
+
+            <h1>
+                BEFORE US,<br>
+                THERE WERE<br>
+                <span>WORLDS.</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover the extraordinary civilizations that shaped
+                our world. Explore their empires, cultures, inventions,
+                mysteries and timeless legacies.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#civilizations" class="primary-btn">EXPLORE CIVILIZATIONS ↗</a>
+                <a href="#about" class="secondary-btn">OUR STORY</a>
+            </div>
+        </div>
+
+        <div class="hero-bottom">
+            <span>AN IMMERSIVE JOURNEY THROUGH HISTORY</span>
+            <span>EST. BEFORE MODERNITY</span>
+        </div>
+
+        <div class="scroll-indicator">
+            <span></span>
+            SCROLL TO DISCOVER
+        </div>
+
+    </section>
+
+
+    <!-- INTRODUCTION -->
+    <section class="intro section-padding" id="about">
+
+        <div class="section-label">01 — THE BEGINNING</div>
+
+        <div class="intro-content">
+            <h2>
+                Every great civilization<br>
+                <span>left a mark on time.</span>
+            </h2>
+
+            <p>
+                Long before modern cities, technology and nations,
+                remarkable societies rose from the earth. They built
+                magnificent monuments, developed writing systems,
+                explored science and created cultures that still
+                influence humanity today.
+            </p>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <h3>5000+</h3>
+                <p>YEARS OF HISTORY</p>
+            </div>
+
+            <div class="stat">
+                <h3>06</h3>
+                <p>GREAT CIVILIZATIONS</p>
+            </div>
+
+            <div class="stat">
+                <h3>01</h3>
+                <p>HUMAN STORY</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- CIVILIZATIONS -->
+    <section class="civilizations section-padding" id="civilizations">
+
+        <div class="section-heading">
+            <div>
+                <div class="section-label">02 — LOST EMPIRES</div>
+                <h2>Explore the <span>Ancient World.</span></h2>
+            </div>
+
+            <p>
+                Six remarkable civilizations.<br>
+                Countless stories waiting to be discovered.
+            </p>
+        </div>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search civilizations..."
+            >
+            <span>⌕</span>
+        </div>
+
+        <div class="civilization-grid" id="civilizationGrid">
+
+            <!-- EGYPT -->
+            <article class="civilization-card">
+                <div class="card-image egypt">
+                    <span class="card-number">01</span>
+                    <span class="card-period">3100 BCE – 30 BCE</span>
+                </div>
+
+                <div class="card-content">
+                    <p class="card-location">AFRICA · NILE VALLEY</p>
+                    <h3>Ancient Egypt</h3>
+                    <p>
+                        A civilization of pharaohs, monumental pyramids,
+                        hieroglyphs and extraordinary engineering.
+                    </p>
+                    <a href="#egypt">DISCOVER MORE ↗</a>
+                </div>
+            </article>
+
+
+            <!-- GREECE -->
+            <article class="civilization-card">
+                <div class="card-image greece">
+                    <span class="card-number">02</span>
+                    <span class="card-period">800 BCE – 146 BCE</span>
+                </div>
+
+                <div class="card-content">
+                    <p class="card-location">EUROPE · MEDITERRANEAN</p>
+                    <h3>Ancient Greece</h3>
+                    <p>
+                        The birthplace of influential philosophical
+                        traditions, democracy, theatre and classical art.
+                    </p>
+                    <a href="#greece">DISCOVER MORE ↗</a>
+                </div>
+            </article>
+
+
+            <!-- ROME -->
+            <article class="civilization-card">
+                <div class="card-image rome">
+                    <span class="card-number">03</span>
+                    <span class="card-period">753 BCE – 476 CE</span>
+                </div>
+
+                <div class="card-content">
+                    <p class="card-location">EUROPE · ITALIAN PENINSULA</p>
+                    <h3>Ancient Rome</h3>
+                    <p>
+                        An immense empire known for its roads, aqueducts,
+                        architecture, law and military power.
+                    </p>
+                    <a href="#rome">DISCOVER MORE ↗</a>
+                </div>
+            </article>
+
+
+            <!-- MESOPOTAMIA -->
+            <article class="civilization-card">
+                <div class="card-image mesopotamia">
+                    <span class="card-number">04</span>
+                    <span class="card-period">3500 BCE – 539 BCE</span>
+                </div>
+
+                <div class="card-content">
+                    <p class="card-location">ASIA · FERTILE CRESCENT</p>
+                    <h3>Mesopotamia</h3>
+                    <p>
+                        One of humanity's earliest urban civilizations,
+                        famous for cuneiform writing and early cities.
+                    </p>
+                    <a href="#mesopotamia">DISCOVER MORE ↗</a>
+                </div>
+            </article>
+
+
+            <!-- CHINA -->
+            <article class="civilization-card">
+                <div class="card-image china">
+                    <span class="card-number">05</span>
+                    <span class="card-period">2070 BCE – 221 BCE</span>
+                </div>
+
+                <div class="card-content">
+                    <p class="card-location">ASIA · EAST ASIA</p>
+                    <h3>Ancient China</h3>
+                    <p>
+                        A rich history of dynasties, philosophy,
+                        bronze craftsmanship and remarkable inventions.
+                    </p>
+                    <a href="#china">DISCOVER MORE ↗</a>
+                </div>
+            </article>
+
+
+            <!-- MAYA -->
+            <article class="civilization-card">
+                <div class="card-image maya">
+                    <span class="card-number">06</span>
+                    <span class="card-period">2000 BCE – 1500 CE</span>
+                </div>
+
+                <div class="card-content">
+                    <p class="card-location">AMERICA · MESOAMERICA</p>
+                    <h3>Maya Civilization</h3>
+                    <p>
+                        A remarkable civilization celebrated for its
+                        mathematics, astronomy, writing and architecture.
+                    </p>
+                    <a href="#maya">DISCOVER MORE ↗</a>
+                </div>
+            </article>
+
+        </div>
+
+        <p class="no-results" id="noResults">
+            No civilizations found. Try another search.
+        </p>
+
+    </section>
+
+
+    <!-- TIMELINE -->
+    <section class="timeline-section section-padding" id="timeline">
+
+        <div class="section-label">03 — THROUGH THE AGES</div>
+
+        <h2>A journey through <span>time.</span></h2>
+
+        <p class="timeline-intro">
+            Explore some important milestones in the history of ancient civilizations.
+        </p>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <span class="timeline-date">3500 BCE</span>
+                <div>
+                    <h3>The Rise of Mesopotamian Cities</h3>
+                    <p>Early urban societies flourished in southern Mesopotamia.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-date">3100 BCE</span>
+                <div>
+                    <h3>Unification of Ancient Egypt</h3>
+                    <p>Upper and Lower Egypt were united under early kingship.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-date">776 BCE</span>
+                <div>
+                    <h3>Early Olympic Games</h3>
+                    <p>The traditional date of the first recorded Olympic Games in Greece.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-date">753 BCE</span>
+                <div>
+                    <h3>Traditional Founding of Rome</h3>
+                    <p>Roman tradition places the founding of Rome in this year.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-date">221 BCE</span>
+                <div>
+                    <h3>Qin Unifies China</h3>
+                    <p>The Qin dynasty established China's first imperial unification.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURED QUOTE -->
+    <section class="quote-section">
+        <div class="quote-overlay"></div>
+
+        <div class="quote-content">
+            <span>✦ A THOUGHT THROUGH TIME ✦</span>
+
+            <h2>
+                "The past is never dead.<br>
+                It's not even past."
+            </h2>
+
+            <p>WILLIAM FAULKNER</p>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#" class="logo">ANCIENT<span> WORLDS.</span></a>
+
+        <p>
+            Exploring humanity's greatest stories, one civilization at a time.
+        </p>
+
+        <div class="footer-bottom">
+            <span>© 2026 ANCIENT WORLDS</span>
+            <span>MADE FOR THE CURIOUS.</span>
+        </div>
+
+    </footer>
+
+
+     <script src="./ancient.js"></script>
+</body>
+</html>
